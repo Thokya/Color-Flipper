@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+nav .nav-center {
+  background-color: white;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav .nav-center h4 {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+nav .nav-center ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav .nav-center ul li {
+  padding: .5%;
+}
+
+nav .nav-center ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 4px;
+}
+
+nav .nav-center ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  height: 90%;
+  width: 100%;
+}
+
+main .container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main .container h2 {
+  padding: 1%;
+  position: absolute;
+  top: 36%;
+  font-size: 200%;
+  background-color: black;
+  color: white;
+}
+
+main .container button {
+  padding: 1%;
+  position: absolute;
+  top: 48%;
+  font-size: 130%;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
